@@ -1,0 +1,4 @@
+config system
+option hostname CeeWrt
+option zonename Asia/Shanghai
+option timezone CST-8
