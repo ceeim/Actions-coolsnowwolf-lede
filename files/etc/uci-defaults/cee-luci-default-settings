@@ -1,4 +1,4 @@
 #!/bin/sh
 
-set luci.themes.Argon=/luci-static/argon
-set luci.main.mediaurlbase=/luci-static/argon
+set luci.themes.Argonne=/luci-static/argonne
+set luci.main.mediaurlbase=/luci-static/argonne
