@@ -18,3 +18,4 @@
 #git clone https://github.com/kenzok8/openwrt-packages package/cee
 #git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
 sudo sed -i 's/azure.archive.ubuntu.com/mirrors.xtom.com/g' /etc/apt/sources.list
+sudo apt-get -y update
