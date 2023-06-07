@@ -14,3 +14,4 @@
 sed -i 's/192.168.1.1/10.0.0.2/g' package/base-files/files/bin/config_generate
 sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF./$1$RdfjjTzD$p3MPGrO2dpz2cuTNKPenN./g' package/lean/default-settings/files/zzz-default-settings
 sed -i "s/hostname='OpenWrt'/hostname='CeeWrt'/g" package/base-files/files/bin/config_generate
+sed -i '/option check_signature/d' /etc/opkg.conf
