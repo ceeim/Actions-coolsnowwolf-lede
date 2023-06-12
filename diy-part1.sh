@@ -19,3 +19,4 @@
 #git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
 #sudo sed -i 's/azure.archive.ubuntu.com/mirrors.xtom.com/g' /etc/apt/sources.list
 #sudo apt-get -y update
+sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$RdfjjTzD$p3MPGrO2dpz2cuTNKPenN.:0:0:99999:7:::/g' package/lean/default-settings/files/zzz-default-settings
